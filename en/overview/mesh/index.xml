@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Dubbo Service Mesh on Apache Dubbo</title><link>https://cn.dubbo.apache.org/en/overview/mesh/</link><description>Recent content in Dubbo Service Mesh on Apache Dubbo</description><generator>Hugo</generator><language>en</language><atom:link href="https://cn.dubbo.apache.org/en/overview/mesh/index.xml" rel="self" type="application/rss+xml"/><item><title>Quickstart</title><link>https://cn.dubbo.apache.org/en/overview/mesh/getting-started/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://cn.dubbo.apache.org/en/overview/mesh/getting-started/</guid><description>&lt;blockquote&gt;
+&lt;p&gt;The service mesh is currently in an early experimental stage. Standard features will be gradually completed and supported.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Dubbo Service Mesh is a proxyless mesh model developed in 2025. This mode introduces no extra proxy forwarding overhead, making it suitable for all performance-sensitive applications and for any deployment environment.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Each deployed application injects a Dubbo Agent that only provides XDS and SDS services, enabling direct inter-service communication through the native gRPC xDS client.&lt;/li&gt;
+&lt;li&gt;All injected agents are based on Kubernetes Gateway API to implement communication between services and external systems.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="download-dubbo"&gt;Download Dubbo&lt;/h2&gt;
+&lt;p&gt;Go to the Dubbo release page and download the installer for your OS, or automatically download the latest version (Linux or macOS):&lt;/p&gt;</description></item></channel></rss>
